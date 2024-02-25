@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wing Fighter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+
+
+<body class="light overflow-x-hidden">
+    <header class="bg-gray-100 dark:bg-black sticky top-0 shadow z-20">
+        <nav class="container mx-auto px-5">
+            <div class="flex flex-wrap items-center justify-between py-4">
+                <a href="/" class="flex items-center">
+                    <span class="self-center text-3xl ms-2 font-bold dark:text-white">
+                        Wing Fighter
+                    </span>
+                </a>
+                <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                    <button type="button"
+                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-1 md:py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Download
+                        Now</button>
+                    <button data-collapse-toggle="navbar-cta" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-cta" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                    <ul
+                        class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-300 rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0 dark:border-gray-800">
+                        <li>
+                            <a href="/"
+                                class="block py-2 px-3 md:p-0 text-white rounded bg-gray-800 hover:bg-gray-900 md:hover:bg-transparent  md:bg-transparent md:text-blue-700 md:dark:text-blue-500"
+                                aria-current="page">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about"
+                                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-300 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="services"
+                                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-300 md:hover:bg-transparent md:hover:text-blue-700 d:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                                Features
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact"
+                                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-300 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                                Gallery
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <section class="bg-gray-200">
+        <div class="hero-shape z-0"></div>
+        <div class="container mx-auto px-5">
+            <div class="flex flex-wrap md:flex-row-reverse items-center py-12">
+                <div class="w-full md:w-1/2">
+                    <img class="w-[400px] h-auto mx-auto relative z-10" src="assets/images/iphone.png" alt="">
+                </div>
+                <div class="w-full md:w-1/2">
+                    <h1 class="text-gray-900  text-4xl md:text-5xl lg:text-7xl font-bold mb-10">
+                        Wing Fighter
+                    </h1>
+                    <p class="text-gray-700text-lg font-medium mb-8">
+                        An amazing 3D air shooting game with various equipment and awesome fighters
+                    </p>
+                    <button class="text-base font-medium bg-pink-300 hover:bg-pink-400 py-2 px-10 rounded-3xl">
+                        Download Now
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container mx-auto">
+            <div class="flex flex-wrap">
+                <div class="w-1/3">
+                    <img src="src/images/best-features.png.webp" alt="">
+                </div>
+                <div class="w-2/3 mt-20 p-6">
+                    <h2 class="text-6xl text-black"> Some of the best features Of Our App!</h2>
+                    <div class="grid grid-cols-2 gap-6 mt-10">
+                        <div class="col-auto">
+                            <div class="flex flex-row">
+                                <img class="w-12 h-12 m-3" src="src/images/gear.png" alt="">
+                                <div>
+                                    <h2 class="text-black text-xl font-semibold">Feature Title</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, labore.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-auto">
+                            <div class="flex flex-row">
+                                <img class="w-12 h-12 m-3" src="src/images/gear.png" alt="">
+                                <div>
+                                    <h2 class="text-black text-xl font-semibold">Feature Title</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, labore.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-auto">
+                            <div class="flex flex-row">
+                                <img class="w-12 h-12 m-3" src="src/images/gear.png" alt="">
+                                <div>
+                                    <h2 class="text-black text-xl font-semibold">Feature Title</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, labore.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-auto">
+                            <div class="flex flex-row">
+                                <img class="w-12 h-12 m-3" src="src/images/gear.png" alt="">
+                                <div>
+                                    <h2 class="text-black text-xl font-semibold">Feature Title</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, labore.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto py-10">
+            <h2 class="text-center text-6xl mb-10 ">How We can Help You <br>With Appco</h2>
+            <div class="items-center justify-center">
+                <div class="w-4/5 mx-auto">
+                    <div class=" grid grid-cols-3 gap-5">
+                        <div class="col-auto bg-white rounded border  hover:border-red-200 px-5 py-10 text-center  ">
+                            <img class="block mx-auto" src="src/images/gear.png" alt="">
+                            <h3 class="text-4xl my-5">Feature Title</h3>
+
+                            <p class="text-lg my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                                error praesentium, sequi quae natus modi soluta culpa sapiente non aperiam?</p>
+
+                        </div>
+                        <div class="col-auto bg-white rounded border  hover:border-red-200 px-5 py-10 text-center  ">
+                            <img class="block mx-auto" src="src/images/gear.png" alt="">
+                            <h3 class="text-4xl my-5">Feature Title</h3>
+
+                            <p class="text-lg my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                                error praesentium, sequi quae natus modi soluta culpa sapiente non aperiam?</p>
+
+                        </div>
+                        <div class="col-auto bg-white rounded border hover:border-red-200 px-5 py-10 text-center  ">
+                            <img class="block mx-auto" src="src/images/gear.png" alt="">
+                            <h3 class="text-4xl my-5">Feature Title</h3>
+
+                            <p class="text-lg my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                                error praesentium, sequi quae natus modi soluta culpa sapiente non aperiam?</p>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto py-10">
+            <h2 class="text-center text-6xl mb-10 ">Choose Your Very Best <br>Pricing Plan.</h2>
+            <div class="items-center justify-center">
+                <div class="w-4/5 mx-auto">
+                    <div class=" grid grid-cols-3 gap-5">
+                        <div class="col-auto bg-white rounded py-10 text-center  ">
+                            <p class="text-xl">2 Years</p>
+                            <h3 class="text-4xl my-5">$299 / Month</h3>
+                            <hr>
+                            <p class="text-xl my-3">Increase traffic 50%</p>
+                            <p class="text-xl my-3"> E-mail support</p>
+                            <p class="text-xl my-3">10 Free Optimization</p>
+                            <p class="text-xl my-3">24/7 support</p>
+                            <hr>
+                            <button class="rounded mt-5 bg-blue-400 hover:bg-blue-600 px-10 py-2">Get
+                                Started</button>
+                        </div>
+                        <div class="col-auto bg-white rounded py-10 text-center  ">
+                            <p class="text-xl">2 Years</p>
+                            <h3 class="text-4xl my-5">$299 / Month</h3>
+                            <hr>
+                            <p class="text-xl my-3">Increase traffic 50%</p>
+                            <p class="text-xl my-3"> E-mail support</p>
+                            <p class="text-xl my-3">10 Free Optimization</p>
+                            <p class="text-xl my-3">24/7 support</p>
+                            <hr>
+                            <button class="rounded mt-5 bg-blue-400 hover:bg-blue-600 px-10 py-2">Get
+                                Started</button>
+                        </div>
+                        <div class="col-auto bg-white rounded py-10 text-center  ">
+                            <p class="text-xl">2 Years</p>
+                            <h3 class="text-4xl my-5">$299 / Month</h3>
+                            <hr>
+                            <p class="text-xl my-3">Increase traffic 50%</p>
+                            <p class="text-xl my-3"> E-mail support</p>
+                            <p class="text-xl my-3">10 Free Optimization</p>
+                            <p class="text-xl my-3">24/7 support</p>
+                            <hr>
+                            <button class="rounded mt-5 bg-blue-400 hover:bg-blue-600 px-10 py-2">Get
+                                Started</button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto py-10">
+            <h2 class="text-center text-6xl mb-10 ">What Peoples Say<br>About Us</h2>
+            <div class="items-center justify-center">
+                <div class="w-4/5 mx-auto">
+                    <div class=" grid grid-cols-3 gap-5">
+                        <div class="col-auto bg-white rounded border  hover:border-red-200 px-5 py-10   ">
+                            <img class="block mx-auto w-20 h-20 rounded-full" src="src/images/testimonial-1.jpg" alt="">
+
+
+                            <p class="text-lg my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                                error praesentium, sequi quae natus modi soluta culpa sapiente non aperiam?</p>
+                            <h3 class="text-2xl my-5 text-start">Alex Jarvis</h3>
+                        </div>
+                        <div class="col-auto bg-white rounded border  hover:border-red-200 px-5 py-10  ">
+                            <img class="block mx-auto w-20 h-20 rounded-full" src="src/images/testimonial-2.jpg" alt="">
+
+
+                            <p class="text-lg my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                                error praesentium, sequi quae natus modi soluta culpa sapiente non aperiam?</p>
+                            <h3 class="text-2xl my-5 text-start">Jack Martina</h3>
+                        </div>
+                        <div class="col-auto bg-white rounded border hover:border-red-200 px-5 py-10   ">
+                            <img class="block mx-auto w-20 h-20 rounded-full" src="src/images/testimonial-3.jpg" alt="">
+
+
+                            <p class="text-lg my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                                error praesentium, sequi quae natus modi soluta culpa sapiente non aperiam?</p>
+                            <h3 class="text-2xl my-5 text-start">James David</h3>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto px-4 py-20">
+            <div class="flex flex-wrap md:flex-row-reverse">
+                <div class="w-2/3">
+                    <img class="w-[500px]" src="src/images/available-app.png.webp" alt="">
+                </div>
+                <div class="w-1/3">
+                    <h2 class="font-semibold text-4xl md:text-5xl my-5">
+                        Our App Available For Any Device Download now
+                    </h2>
+                    <p class="text-lg my-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam similique, vel voluptatem
+                        voluptate assumenda eveniet.
+                    </p>
+                    <div class="flex justify-start">
+                        <img class="me-2" src="src/images/app-store.webp" alt="">
+                        <img class="ms-2" src="src/images/play-store.webp" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="bg-purple-100">
+        <div class="container mx-auto x-4 py-20">
+            <div class="text-center ">
+
+                <h2 class="text-6xl my-2">Say Hello To The Collaboration Hub.
+                </h2>
+
+                <button
+                    class="bg-blue-300 hover:bg-blue-500 text-2xl font-bold px-14 py-2 rounded-xl items-center mt-10">Contact
+                    Us</button>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer class="bg-black">
+
+
+        <div class="container mx-auto py-4 px-5 text-center">
+            <p class="text-gray-200 text-base font-medium text-center">
+                Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+
+                <a href="https://domnify.com" rel="noopener noreferrer"
+                    class="text-gray-200 hover:text-yellow-400">Wing Fighter</a>
+
+
+                | Design By : <a href="https://domnify.com" rel="noopener noreferrer"
+                    class="text-gray-200 hover:text-yellow-400" target="_blank">Azhar Ahmad</a>
+            </p>
+        </div>
+
+    </footer>
+    <script src="/node_modules/flowbite/dist/flowbite.js"></script>
+</body>
+
+</html>
