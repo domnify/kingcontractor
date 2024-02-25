@@ -1,38 +1,40 @@
-new PureCounter();
 new PureCounter({
-    selector: ".ytsubscribers",
+    selector: ".downloads",
     start: 0,
-    end: 2240,
-    duration: 2,
-    delay: 10,
+    end: 10,
+    duration: 1,
+    delay: 5,
 });
 
 new PureCounter({
-    selector: ".igfollowers",
+    selector: ".rating",
     start: 0,
-    end: 5795,
-    duration: 2,
-    delay: 10,
+    end: 4,
+    duration: 1,
+    delay: 5,
 });
 
-
-
-
-
-var typed = new Typed('#skills', {
-    strings: ['WordPress Website Designer', 'Figma Designer', 'Frontend developer', 'Wix Website Designer'],
-    smartBackspace: true,
-    typeSpeed: 30,
-    backSpeed: 20,
-    backDelay: 1000,
-    loop: true,
-    loopCount: Infinity,
+new PureCounter({
+    selector: ".reviews",
+    start: 60,
+    end: 80,
+    duration: 1,
+    delay: 5,
 });
-
-
 
 AOS.init();
 
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: "auto",
+    spaceBetween: 40,
+
+    loop: true,
+    autoplay: {
+        delay: 1000,
+        disableOnInteraction: false,
+    },
+
+});
 
 
 

@@ -2,19 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-.hero-shape {
-    position: absolute;
-    left: auto;
-    top: -70%;
-    right: -44%;
-    bottom: auto;
-    width: 100%;
-    height: 115%;
-    border-radius: 100px;
-    background-color: rgb(22, 46, 102);
-    -webkit-transform: rotate(-35deg);
-    -ms-transform: rotate(-35deg);
-    transform: rotate(-35deg);
-
-}
 
