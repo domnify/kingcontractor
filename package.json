@@ -8,20 +8,20 @@
     "build": "vite build"
   },
   "dependencies": {
-       "vite": "^5.0.12"
+    "vite": "^5.0.12"
   },
-  "name": "wing-fighter",
+  "name": "kingcontactor",
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/domnify/wing-fighter.git"
+    "url": "git+https://github.com/domnify/kingcontractor.git"
   },
   "author": "Azhar Ahmad",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/domnify/wing-fighter/issues"
+    "url": "https://github.com/domnify/kingcontractor/issues"
   },
-  "homepage": "https://domnify.github.io/wing-fighter",
+  "homepage": "https://domnify.github.io/kingcontractor",
   "description": ""
 }
