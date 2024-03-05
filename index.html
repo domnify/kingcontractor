@@ -7,15 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>King Contractor</title>
     <link rel="stylesheet" href="./src/style.css">
-    <link rel="stylesheet" href="./src/custom.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./src/custom.css" />
+
 
 </head>
 
 <body class="light">
 
 
-    <section id="hero" class="bg-black">
+    <section id="hero" class="bg-[url('./assets/images/hero-bg.webp')] bg-black">
 
         <div class="container mx-auto px-5">
             <div class="flex flex-wrap items-center py-12">
@@ -92,19 +94,23 @@
 
     </section>
 
-    <section id="portfolio">
+    <section class="bg-[url('./assets/images/port-back-1.webp')]" id="portfolio">
+
         <img class="block mx-auto w-full object-contain" src="./assets/images/divider.svg" alt="">
-        <div class="container mx-auto px-5">
-            <div class="text-center py-12 mb-8">
-                <h2 class="text-6xl text-gray-800 font-bold mb-2">
+
+        <div class="container mx-auto px-5 py-10">
+
+            <div class="text-center py-5 mt-5">
+                <h2 class="text-6xl text-gray-200 font-bold mb-3">
                     Portfoli<span class="relative crown">o</span>
                 </h2>
-                <p class="text-base md:text-lg text-gray-600 font-medium">
+                <p class="text-base md:text-lg text-gray-300 font-medium">
                     SETTING INDUSTRY STANDARDS
                 </p>
-
             </div>
-            <div class="flex flex-wrap -m-5">
+
+            <div class="flex flex-wrap -mx-5 mt-5">
+
                 <div class="w-full md:w-1/2 lg:w-1/3 p-5 mb-8">
                     <div class="text-center">
                         <img class="rounded-2xl mb-8" src="./assets/images/portfolio/rapid-imgs1.webp" alt="">
@@ -114,6 +120,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="w-full md:w-1/2 lg:w-1/3 p-5 mb-8">
                     <div class="text-center">
                         <img class="rounded-2xl mb-8" src="./assets/images/portfolio/col-imgs1.webp" alt="">
@@ -123,6 +130,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="w-full md:w-1/2 lg:w-1/3 p-5 mb-8">
                     <div class="text-center">
                         <img class="rounded-2xl mb-8" src="./assets/images/portfolio/vanguard-imgs1.webp" alt="">
@@ -132,6 +140,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="w-full md:w-1/2 lg:w-1/3 p-5 mb-8">
                     <div class="text-center">
                         <img class="rounded-2xl mb-8" src="./assets/images/portfolio/dandmwe-imgs1.webp" alt="">
@@ -141,6 +150,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="w-full md:w-1/2 lg:w-1/3 p-5 mb-8">
                     <div class="text-center">
                         <img class="rounded-2xl mb-8" src="./assets/images/portfolio/gravity-imgs1.webp" alt="">
@@ -150,6 +160,7 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="w-full md:w-1/2 lg:w-1/3 p-5 mb-8">
                     <div class="text-center">
                         <img class="rounded-2xl mb-8" src="./assets/images/portfolio/roofingtechnology-imgs1.webp"
@@ -160,8 +171,11 @@
                         </a>
                     </div>
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
     <section class="bg-yellow-500">
@@ -205,101 +219,248 @@
     </section>
 
 
-    <section>
+    <section class="bg-[url('./assets/images/gravity-roofing-bg-1.webp')] bg-black py-20">
         <div class="container mx-auto px-5">
             <div class="flex flex-wrap">
-                <div class="w-full md:w-1/2 lg:w-3/5 relative">
-                    <h2 class="text-5xl font-bold">
+                <div class="w-full md:w-1/2 lg:w-3/5 relative pe-8">
+                    <h2 class="text-4xl text-gray-200 font-bold">
                         ULTIMATE ROOFING WEBSITE FOR TAZ AT
                         G
                         RAVITY ROOFING</h2>
-                    <p>
-                        BY USING MY CAREFULLY CRAFTED
-                    </p>
-                    <p>
-                        ULTIMATE ROOFING WEBSITE BLUEPRINT
-                    </p>
-                    <p>
-                        (FOR INTERNAL PURPOSE ONLY!)
-                    </p>
-                    <img src="./assets/images/ultimate-roofing-img-1.webp" alt="">
+                  
+                    <img class="w-[500px] mt-40" src="./assets/images/ultimate-roofing-img-1.webp" alt="">
                     <img class="absolute top-40 right-0 w-60" src="./assets/images/ultimate-roofing-website.webp"
                         alt="">
-                    <h2 class="text-3xl">ARE YOU READY TO TAKE YOUR ROOFING BRAND TO THE NEXT LEVEL LIKE TAZ?</h2>
+                    <h2 class="text-2xl text-gray-200  font-bold">ARE YOU READY TO TAKE YOUR ROOFING BRAND TO THE NEXT
+                        LEVEL LIKE TAZ?</h2>
                 </div>
-                <div class="w-full md:w-1/2 lg:w-2/5">
-                    <h2>BUT DON’T TAKE IT FROM ME..
+                <div class="w-full md:w-1/2 lg:w-2/5 px-12">
+                    <h2 class="text-2xl text-gray-200 font-bold mb-3">BUT DON’T TAKE IT FROM ME.. </h2>
 
-                    </h2>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <span class="block text-2xl text-black font-semibold bg-yellow-500 px-4 py-2 ">
+                        HEAR IT FROM HIM! 👇🏻
+                    </span>
 
+                    <div class="py-5 my-4">
+                        <video class="elementor-video"
+                            src="https://kingcontractor.com/wp-content/uploads/2024/02/gravity_roofing_testimonial-720p.mp4"
+                            controls="" preload="metadata" controlslist="nodownload"></video>
 
-    <section>
-        <div class="container mx-auto px-5 py-5">
-
-            <div class="text-center py-8 mb-12">
-                <h2 class="text-5xl text-gray-200 font-bold mb-2">HERE’S WHAT OUR CLIENTS SAY</h2>
-                <p class="text-lg text-gray-300 font-medium"> ( ⭐5 OUT OF 5 ) Facebook & Google Reviews</p>
-            </div>
-            <div class="w-full md:w-1/2 mx-auto">
-                <div class="bg-black rounded-3xl p-8">
-                    <div class="flex flex-col">
-
-                        <div class="inline-flex space-x-5 mb-5">
-                            <div class="">
-                                <img src="./assets/images/r2.svg" alt="">
-                            </div>
-                            <div class="text-gray-300">
-                                <p>TAJ CRUMPLER</p>
-                                <p>5.0 ⭐⭐⭐⭐⭐</p>
-                                <p>Facebook Review</p>
-                            </div>
-                        </div>
-
-                        <p class="text-base text-gray-300 font-medium">
-                            I highly recommend King Contractor Agency! We have loved our experience so far with Dean
-                            White
-                            and
-                            his team at King Contractor. They have done everything they promised, which is unusual for
-                            marketing
-                            agencies in the roofing industry. The communication is great and they are always challenging
-                            us
-                            on
-                            new marketing techniques.
-                        </p>
-
+                    </div>
+                    <div class="w-full">
+                        <a href="#"
+                            class="text-white hover:text-gray-800 bg-red-500 hover:bg-[#eeb644] focus:outline-none font-bold rounded-md text-lg px-8 py-2 md:py-3 text-center block">
+                            BOOK A CALL WITH ME
+                            <br>
+                            For a zero obligation quote
+                        </a>
                     </div>
                 </div>
             </div>
-
-
         </div>
     </section>
-    <section>
-        <div class="container mx-auto px-5 py-5">
 
-            <div class="text-center py-8 mb-12">
-                <h2 class="text-5xl text-gray-200 font-bold mb-2">
+
+    <section class="bg-[url('./assets/images/review-bg.webp')]" id="reviews">
+
+        <img class="block mx-auto w-full object-contain" src="./assets/images/divider.svg" alt="">
+
+        <div class="container mx-auto px-5 py-10">
+
+            <div class="text-center py-5 mt-12">
+                <h2 class="text-5xl text-gray-200 font-bold mb-3 leading-normal">HERE’S WHAT OUR <br> <span
+                        class="text-yellow-500"><span class="relative crown-2">C</span>LIENTS</span> SAY</h2>
+                <p class="text-lg text-gray-300 font-medium"> ( ⭐5 OUT OF 5 ) Facebook & Google Reviews</p>
+            </div>
+
+            <div class="swiper reviewSwiper mt-5">
+
+                <div class="swiper-wrapper flex mb-12">
+
+                    <div class="swiper-slide w-full lg:w-1/2">
+                        <div class="bg-black rounded-3xl p-8">
+                            <div class="flex flex-col">
+
+                                <div class="inline-flex space-x-5 mb-5">
+                                    <div class="">
+                                        <img src="./assets/images/r2.svg" alt="">
+                                    </div>
+                                    <div class="text-gray-300">
+                                        <p>TAJ CRUMPLER</p>
+                                        <p>5.0 ⭐⭐⭐⭐⭐</p>
+                                        <p>Facebook Review</p>
+                                    </div>
+                                </div>
+
+                                <p class="text-base text-gray-300 font-medium">
+                                    I highly recommend King Contractor Agency! We have loved our experience so far
+                                    with Dean
+                                    White
+                                    and
+                                    his team at King Contractor. They have done everything they promised, which is
+                                    unusual for
+                                    marketing
+                                    agencies in the roofing industry. The communication is great and they are always
+                                    challenging
+                                    us
+
+                                    new marketing techniques.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide w-full lg:w-1/2">
+                        <div class="bg-black rounded-3xl p-8">
+                            <div class="flex flex-col">
+
+                                <div class="inline-flex space-x-5 mb-5">
+                                    <div class="">
+                                        <img src="./assets/images/r2.svg" alt="">
+                                    </div>
+                                    <div class="text-gray-300">
+                                        <p>TAJ CRUMPLER</p>
+                                        <p>5.0 ⭐⭐⭐⭐⭐</p>
+                                        <p>Facebook Review</p>
+                                    </div>
+                                </div>
+
+                                <p class="text-base text-gray-300 font-medium">
+                                    I highly recommend King Contractor Agency! We have loved our experience so far
+                                    with Dean
+                                    White
+                                    and
+                                    his team at King Contractor. They have done everything they promised, which is
+                                    unusual for
+                                    marketing
+                                    agencies in the roofing industry. The communication is great and they are always
+                                    challenging
+                                    us
+                                    on
+                                    new marketing techniques.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide w-full lg:w-1/2">
+                        <div class="bg-black rounded-3xl p-8">
+                            <div class="flex flex-col">
+
+                                <div class="inline-flex space-x-5 mb-5">
+                                    <div class="">
+                                        <img src="./assets/images/r2.svg" alt="">
+                                    </div>
+                                    <div class="text-gray-300">
+                                        <p>TAJ CRUMPLER</p>
+                                        <p>5.0 ⭐⭐⭐⭐⭐</p>
+                                        <p>Facebook Review</p>
+                                    </div>
+                                </div>
+
+                                <p class="text-base text-gray-300 font-medium">
+                                    I highly recommend King Contractor Agency! We have loved our experience so far
+                                    with Dean
+                                    White
+                                    and
+                                    his team at King Contractor. They have done everything they promised, which is
+                                    unusual for
+                                    marketing
+                                    agencies in the roofing industry. The communication is great and they are always
+                                    challenging
+                                    us
+                                    on
+                                    new marketing techniques.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide w-full lg:w-1/2">
+                        <div class="bg-black rounded-3xl p-8">
+                            <div class="flex flex-col">
+
+                                <div class="inline-flex space-x-5 mb-5">
+                                    <div class="">
+                                        <img src="./assets/images/r2.svg" alt="">
+                                    </div>
+                                    <div class="text-gray-300">
+                                        <p>TAJ CRUMPLER</p>
+                                        <p>5.0 ⭐⭐⭐⭐⭐</p>
+                                        <p>Facebook Review</p>
+                                    </div>
+                                </div>
+
+                                <p class="text-base text-gray-300 font-medium">
+                                    I highly recommend King Contractor Agency! We have loved our experience so far
+                                    with Dean
+                                    White
+                                    and
+                                    his team at King Contractor. They have done everything they promised, which is
+                                    unusual for
+                                    marketing
+                                    agencies in the roofing industry. The communication is great and they are always
+                                    challenging
+                                    us
+                                    on
+                                    new marketing techniques.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-pagination "></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="bg-black py-12">
+        <div class="container mx-auto px-5">
+
+            <div class="text-center py-5 mt-8">
+                <h2 class="text-5xl text-gray-200 font-bold mb-3">
                     ROOFERS' FRUSTRATIONS INTO SOLUTIONS
                 </h2>
             </div>
 
-            <div class="flex flex-wrap">
+            <div class="flex flex-wrap mt-5">
                 <div class="w-full md:w-1/2 p-5">
                     <div class="bg-gray-200 rounded-3xl">
-                        <h3>DOES THIS SOUND AND FEEL FAMILIAR?</h3>
+                        <h3 class="text-2xl text-gray-900 font-bold p-4">
+                            DOES THIS SOUND AND FEEL FAMILIAR?
+                        </h3>
 
                         <div class="bg-gray-700">
-                            <p>You're tired of your website not bringing in any results at all...?</p>
-                            <hr>
-                            <p>You are left wondering when the "SEO" will start working...?</p>
-                            <hr>
-                            <p>You have already paid thousands to an agency - without any good results...?</p>
-                            <hr>
-                            <p>You want a decent website but you don't know who you can trust..?</p>
+
+                            <ul>
+                                <li class="text-xl text-gray-200 font-bold p-4">You're tired of your website not
+                                    bringing in any results at all...?</li>
+
+                                <hr>
+
+                                <li class="text-xl text-gray-200 font-bold p-4">You are left wondering when the "SEO"
+                                    will start working...?</li>
+
+                                <hr>
+
+                                <li class="text-xl text-gray-200 font-bold p-4">You have already paid thousands to an
+                                    agency - without any good results...?</li>
+
+                                <hr>
+
+                                <li class="text-xl text-gray-200 font-bold p-4">You want a decent website but you don't
+                                    know who you can trust..?</li>
+                            </ul>
+
                         </div>
 
 
@@ -307,22 +468,47 @@
                 </div>
                 <div class="w-full md:w-1/2 p-5">
                     <div class="bg-yellow-500 rounded-3xl">
-                        <h3>GOOD NEWS, IT’S
-                            YOUR LUCKY DAY!</h3>
+                        <h3 class="text-2xl text-gray-900 font-bold p-4">GOOD NEWS, IT’S YOUR LUCKY DAY!
+                            </span>
+                        </h3>
                         <div class="bg-gray-700">
-                            <p>Because I'm not about false promises, I keep it real.</p>
-                            <hr>
-                            <p>I have real experience, with real results.</p>
-                            <hr>
-                            <p>I'm the most affordable at my level.</p>
-                            <hr>
-                            <p>My work is high quality. </p>
-                            <hr>
-                            <p>I have a huge portfolio (65+) of proven results.</p>
+                            <ul class="">
+
+                                <li class="text-xl text-gray-200 font-bold p-4">Because I'm not about false promises, I
+                                    keep it real.</li>
+
+                                <hr>
+
+                                <li class="text-xl text-gray-200 font-bold p-4">I have real experience, with real
+                                    results.</li>
+
+                                <hr>
+
+                                <li class="text-xl text-gray-200 font-bold p-4">I'm the most affordable at my level.
+                                </li>
+
+                                <hr>
+
+                                <li class="text-xl text-gray-200 font-bold p-4">My work is high quality. </li>
+
+                                <hr>
+
+                                <li class="text-xl text-gray-200 font-bold p-4">I have a huge portfolio (65+) of proven
+                                    results.</li>
+
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="text-center py-8 mb-12">
+                <h3 class="text-3xl text-gray-200 font-bold mb-3">
+                    YOUR LUCK JUST TURNED – GENUINE SOLUTIONS, NO FALSE HOPES.
+                </h3>
+            </div>
+
+
+
         </div>
     </section>
     <section class="bg-black">
@@ -356,7 +542,7 @@
                 <div class="w-full md:w-1/2 p-5 text-gray-200">
 
                     <h2 class="text-gray-200 text-4xl font-bold mb-8">
-                        YOUR VISION, OUR <span> <span class="crown-2">C</span>OMMITMENT </span>
+                        YOUR VISION, OUR <span> <span class="relative crown-2">C</span>OMMITMENT </span>
                     </h2>
 
                     <P class=" text-base font-medium mb-3">
@@ -408,21 +594,18 @@
 
     </section>
 
-    <section>
+    <section class="bg-[url('./assets/images/port-back-1.webp')]">
         <div class="container mx-auto px-5 py-12">
-            <div class="text-center py-12 mb-8">
-                <h2 class="text-6xl text-gray-800 font-bold mb-2">
-                    Not <span class="relative crown">C</span>ONVINCED?
-
-
+            <div class="text-center py-5 mt-8">
+                <h2 class="text-5xl text-gray-200 font-bold mb-3">
+                    Not <span class="text-yellow-500 relative crown-2">C</span><span
+                        class="text-yellow-500">ONVINCED?</span>
                 </h2>
-                <p class="text-base md:text-lg text-gray-600 font-medium">
+                <p class="text-base md:text-xl italic text-gray-300 font-medium">
                     YOUR SUCCESS IS NOT JUST A GOAL, IT’S OUR TOP PRIORITY.
-
                 </p>
-
             </div>
-            <div class="flex flex-wrap -m-5">
+            <div class="flex flex-wrap -mx-5 mt-5">
                 <div class="w-full md:w-1/2 lg:w-1/3 p-5 mb-8">
                     <div class="text-center">
                         <img class="rounded-2xl mb-8" src="./assets/images/flash-lap-img.webp" alt="">
@@ -478,60 +661,105 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center">
-                <h2>AND MANY MORE! </h2>
+            <div class="text-center my-5">
+                <h2 class="text-5xl underline text-gray-200 font-bold">AND MANY MORE!</h2>
+            </div>
+            <div class="w-full md:w-2/5 lg:w-2/6 mx-auto mt-5">
                 <a href="#"
-                    class="text-white hover:text-gray-800 bg-red-500 hover:bg-[#eeb644] focus:outline-none font-bold rounded-md text-lg px-8 py-2 md:py-3 text-center">
-                    BOOK A CALL WITH ME <br>
-                    <span class="inline-block font-medium"> FOR A ZERO OBLIGATION QUOTE </span>
+                    class="text-white hover:text-gray-800 bg-red-500 hover:bg-[#eeb644] focus:outline-none font-bold rounded-md text-lg px-8 py-2 md:py-3 text-center block">
+                    BOOK A CALL WITH ME
+                    <br>
+                    For a zero obligation quote
                 </a>
             </div>
+
+
     </section>
 
-    <section class="" id="testimonials">
+    <section class="bg-black" id="testimonials">
         <img class="block mx-auto w-full object-contain" src="./assets/images/rectangle.svg" alt="">
-        <div class="container mx-auto px-5">
 
-            <div class="text-center">
-                <h2>REAL STORIES, REAL IMPACT </h2>
-                <p>YOUR SUCCESS IS NOT JUST A GOAL, IT’S OUR TOP PRIORITY. </p>
+        <div class="container mx-auto px-5 py-5">
+
+            <div class="text-center py-5 mt-12">
+                <h2 class="text-5xl text-gray-200 font-bold mb-3">
+                    REAL STORIES, REAL IMPACT
+                </h2>
+                <p class="text-base md:text-xl italic text-gray-300 font-medium">
+                    YOUR SUCCESS IS NOT JUST A GOAL, IT’S OUR TOP PRIORITY.
+                </p>
             </div>
+            <div class="swiper reviewSwiper py-5 mt-12">
+                <div class="swiper-wrapper flex mb-12">
+                    <div class="swiper-slide w-full md:w-1/2 lg:w-1/4">
+                        <div class="e-hosted-video elementor-wrapper elementor-open-inline">
+                            <video
+                                src="https://kingcontractor.com/wp-content/uploads/2024/02/gravity_roofing_testimonial-720p.mp4"
+                                controls="" preload="metadata" controlslist="nodownload">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="swiper-slide w-full md:w-1/2 lg:w-1/4">
+                        <div class="e-hosted-video elementor-wrapper elementor-open-inline">
+                            <video
+                                src="https://kingcontractor.com/wp-content/uploads/2024/02/gravity_roofing_testimonial-720p.mp4"
+                                controls="" preload="metadata" controlslist="nodownload">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="swiper-slide w-full md:w-1/2 lg:w-1/4">
+                        <div class="e-hosted-video elementor-wrapper elementor-open-inline">
+                            <video
+                                src="https://kingcontractor.com/wp-content/uploads/2024/02/gravity_roofing_testimonial-720p.mp4"
+                                controls="" preload="metadata" controlslist="nodownload">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="swiper-slide w-full md:w-1/2 lg:w-1/4">
+                        <div class="e-hosted-video elementor-wrapper elementor-open-inline">
+                            <video
+                                src="https://kingcontractor.com/wp-content/uploads/2024/02/gravity_roofing_testimonial-720p.mp4"
+                                controls="" preload="metadata" controlslist="nodownload">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="swiper-slide w-full md:w-1/2 lg:w-1/4">
+                        <div class="e-hosted-video elementor-wrapper elementor-open-inline">
+                            <video
+                                src="https://kingcontractor.com/wp-content/uploads/2024/02/gravity_roofing_testimonial-720p.mp4"
+                                controls="" preload="metadata" controlslist="nodownload">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="swiper-slide w-full md:w-1/2 lg:w-1/4">
+                        <div class="e-hosted-video elementor-wrapper elementor-open-inline">
+                            <video
+                                src="https://kingcontractor.com/wp-content/uploads/2024/02/gravity_roofing_testimonial-720p.mp4"
+                                controls="" preload="metadata" controlslist="nodownload">
+                            </video>
+                        </div>
+                    </div>
 
+                </div>
 
+            </div>
 
         </div>
+
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section class="" id="faqs">
+    <section class="bg-[url('./assets/images/port-back-1.webp')] py-20" id="faqs">
         <div class="container mx-auto px-5">
-
-            <div class="text-center">
-                <h2>FREQUENTLY ASKED QUESTIONS </h2>
-                <p>YOUR SUCCESS IS NOT JUST A GOAL, IT’S OUR TOP PRIORITY. </p>
+            <div class="text-center py-5 mt-8">
+                <h2 class="text-5xl text-gray-200 font-bold mb-3">
+                    FREQUENTLY ASKED QUESTIONS
+                </h2>
+                <p class="text-base md:text-xl italic text-gray-300 font-medium">
+                    YOUR SUCCESS IS NOT JUST A GOAL, IT’S OUR TOP PRIORITY.
+                </p>
             </div>
 
-            <div class="w-full md:w-4/5 lg:w-3/5 mx-auto py-8">
-
-
+            <div class="w-full md:w-4/5 lg:w-3/4 mx-auto py-5 mt-5">
                 <div id="accordion-collapse" data-accordion="collapse">
 
                     <h2 id="accordion-collapse-heading-1" class="mt-5">
@@ -770,7 +998,7 @@
                         A HIGHLY CONVERTING WEBSITE DESIGN FOR YOUR ROOFING BUSINESS. THAT’S A PROMISE
                     </h3>
                     <a href="#"
-                        class="text-white hover:text-gray-800 bg-red-500 hover:bg-[#eeb644] focus:outline-none font-medium rounded-md text-lg px-8 py-2 md:py-3 text-center">
+                        class="text-white hover:text-gray-800 bg-red-500 hover:bg-[#eeb644] focus:outline-none font-medium rounded-md text-base px-6 py-2 md:py-3 text-center">
                         REQUEST A QUOTE
                     </a>
 
@@ -831,7 +1059,8 @@
                 </p>
                 <hr class="my-5">
                 <p class="text-base text-gray-200 font-medium text-center">
-                    Website Designed With ❤ by <a href="/" class=""> King Contractor Agency </a> – Building America’s
+                    Website Designed With ❤ by <a href="https://domnify.com" class="">Azhar Ahmad</a> – Building
+                    America’s
                     Most
                     Trusted
                     Roofing Brands.
@@ -843,8 +1072,37 @@
     </footer>
 
     <script type="module" src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script type="module" src="./node_modules/swiper/swiper-bundle.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <script>
+        var swiper = new Swiper(".reviewSwiper", {
+            slidesPerView: 'auto',
+            centeredSlides: true,
+            spaceBetween: 40,
+
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+
+            loop: true,
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                renderBullet: function (index, className) {
+                    return '<span class="' + className + '">' + (index + 1) + "</span>";
+                },
+            },
+
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>
