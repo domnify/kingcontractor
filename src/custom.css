@@ -1,3 +1,27 @@
+#hero{
+  background-image: url('/assets/images/hero-bg.webp')
+}
+
+#portfolio{
+  background-image: url('/assets/images/port-back-1.webp')
+}
+
+.roofing{
+  background-image: url('/assets/images/gravity-roofing-bg-1.webp')
+}
+
+#reviews{
+  background-image: url('/assets/images/review-bg.webp')
+}
+
+.not-convinced{
+  background-image: url('/assets/images/port-back-1.webp')
+}
+
+#faqs{
+  background-image: url('/assets/images/port-back-1.webp')
+}
+
 span.crown:after {
   content: '';
   background: url(/assets/images/crown.svg);
